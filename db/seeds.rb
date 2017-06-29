@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+create_account = User.create(email:'1234@qq.com',password:'123123',password_confirmation:'123123')
+
+posts = {
+	title:'asdfjoinoaif',
+	body:'ahaisudhfoiuasdfiasdfmoimfiasdojfdsnofausn'
+}
